@@ -14,9 +14,5 @@ public class App {
         for (String beanName : context.getBeanDefinitionNames()) {
             System.out.println(beanName);
         }
-//        InternetBank bank = context.getBean(InternetBank.class);
-//        bank.getTotalAmount();
-//        RegularBank rbank = context.getBean(RegularBank.class);
-//        rbank.getTotalAmount();
     }
 }
